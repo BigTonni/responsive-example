@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            .container{
+                width:96%;
+                max-width: 960px;
+                min-height: 1100px;
+                padding: 20px;
+                color: #fff;
+            }
+            #bg-img{
+                height: 800px;
+                background: url(http://media1.santabanta.com/full1/Cars/BMW/bmw-135a.jpg) no-repeat center;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            @media (max-width: 1016px){
+                #bg-img{height: 600px;}
+            }
+            @media (max-width: 768px){
+                #bg-img{height: 300px;}
+            }
+            @media (max-width: 480px){
+                #bg-img{height: 170px;}
+            }
+        </style>
+        <section id="bg-img">
+            <div class="container">
+                <h2>Responsive image</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>                    
+        </section>
+
+    </body>
+</html>
